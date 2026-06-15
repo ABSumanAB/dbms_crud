@@ -12,7 +12,7 @@ app.use(express.json());
 // MongoDB Connection
 // ======================
 
-// mongoose.connect("mongodb+srv://absumanandab_db_user:ic13U2Cm78AjX3iR@cluster0.prud407.mongodb.net/?appName=Cluster0")
+
 mongoose.connect("mongodb://127.0.0.1:27017/walletDB")
 
 .then(() => {
